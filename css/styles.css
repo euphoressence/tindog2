@@ -1,0 +1,174 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  position: relative;
+    }
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+    }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  }
+
+  .dog-btn {
+    margin: 3% 2%;
+  }
+
+  p {
+    color: #8f8f8f;
+  }
+
+.container-fluid {
+  padding: 3% 13% 10%;
+}
+
+.dog {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+    }
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.row {
+  margin-top: 5.5rem;
+
+}
+
+.title-btn {
+  margin-top: 3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  }
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.poo {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.poo:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial sec */
+
+#testimonials {
+  text-align: center;
+  color: white;
+  background-color: #ef8172;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.corgi {
+  width: 10%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.test-img {
+  width: 15%;
+  padding: 20px 20px 15px;
+}
+
+/* Pricing sec */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .dog {
+    position: static;
+    transform: rotate(0);
+    width: 60%
+  }
+}
+
+/* call to action sec */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 15%;
+    }
+
+.idk {
+  color: white;
+  width: 80%;
+  margin: auto;
+  font-size: 2.7rem;
+}
+
+.doge-btn {
+  margin: 4% 4%;
+}
+
+/* footer sec */
+
+#footer {
+  background-color: white;
+  text-align: center;
+}
+
+.social-media {
+  padding: 2% 1%;
+}
+
+.social-media:hover {
+  color: #8f8f8f;
+}
